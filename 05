@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+
+​using namespace std;
+
+​int main () {
+double m, h;
+
+​cin>>m>>h;
+
+​double result=m/(h*h);
+
+​cout<<result<<endl;
+
+​return 0;
+
+}
