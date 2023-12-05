@@ -1,0 +1,21 @@
+package main 
+
+​import "fmt"
+import "math"
+
+​func main () {
+
+    var y float64 = 0.5
+    var x float64 = 32
+    var z float64 = 20
+    var a float64 = 365
+    var d float64
+    var b float64
+    var c float64
+
+    d=a*y
+    b=d/x
+    c= d/z
+
+    fmt.Print (d, math.Ceil(b), math.Ceil(c))
+}
