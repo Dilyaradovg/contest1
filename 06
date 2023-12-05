@@ -1,0 +1,56 @@
+package main 
+
+​import "fmt"
+func main () {
+
+    var n int64 
+    var a int64 = 5000
+    var b int64 = 1000
+    var c int64 = 500 
+    var f int64 = 200 
+    var m int64 = 100
+
+    fmt.Scan (&n)
+
+    if (n/a) >=1 {
+        a = (n-(n % a)) / 5000
+        n = n % 5000
+
+    } else {
+     a = 0
+ }
+
+    if (n/b) >=1 {
+        b = (n- (n % b)) / 1000
+        n = n % 1000
+    } else {
+        b = 0 
+    }
+
+    if (n/c) >=1 {
+        c = (n - (n % c)) / 500
+        n = n % 500
+
+        }  else {
+        c = 0 
+    }
+
+     if (n/f) >=1 {
+        f = (n-(n%f)) / 200
+        n = n % 200
+
+        }  else {
+        f = 0 
+    }
+
+    if (n/m) >=1 {
+        m = (n-(n%m)) / 100
+        n = n % 100 
+
+        }  else {
+        m = 0
+        }
+
+fmt.Println(p5000, p1000, p500, p200, p100)
+
+}
